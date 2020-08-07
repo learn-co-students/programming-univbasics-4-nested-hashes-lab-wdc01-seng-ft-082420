@@ -17,7 +17,7 @@ describe "Working with Nested Hashes -" do
 
   describe "the dennis_ritchies_language method" do
     it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string" do
-      expect(dennis_ritchies_language).to eq("C")
+      expect(dennis_ritchies_language).to eq(["C"])
     end
   end
 
